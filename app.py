@@ -10,8 +10,8 @@ app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///data.db"
 app.config["MAIL_SERVER"] = "smtp.gmail.com"
 app.config["MAIL_PORT"] = 465
 app.config["MAIL_USE_SSL"] = True
-app.config["MAIL_USERNAME"] = "21f1000039@ds.study.iitm.ac.in"
-app.config["MAIL_PASSWORD"] = "ehfbfmactbldvxok"
+app.config["MAIL_USERNAME"] = "Your mail-d"
+app.config["MAIL_PASSWORD"] = "Your pass"
 db = SQLAlchemy(app)
 
 mail = Mail(app)
